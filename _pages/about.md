@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.JPG
   image_circular: false # crops the image to make it circular
   address: >
     <p>10835 SW 112TH AVE APT 312</p>
