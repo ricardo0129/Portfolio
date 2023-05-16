@@ -1,0 +1,99 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Name
+      value: Ricardo Ruiz
+    - name: Date of Birth
+      value: March 10 1998
+    - name: Languages
+      value: English, Spanish 
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: Florida International University
+      year: 2022-NOW
+      description:
+        - Computer Science
+        - Current GPA 4.0
+        - title: Coursework
+          contents:
+            - Artificial Intelligence, Theory of Computation, Computational Geometry
+            - Bioinformatics, Optimization Techniques
+    - title: Bachelor of Science
+      institution: Florida International University 
+      year: 2019-2022 
+      description:
+        - Computer Science
+        - Final GPA 3.7
+        - title: Coursework
+          contents:
+            - Algorithms, Databases, Operating Systems, Calculus III
+            - Differential Eq, Grapth Theory, Machine Learning, Statistics
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Engineer
+      institution: Skill Court
+      year: 2021 - 2022
+      description:
+        - Worked on software for hardware equipment meant for soccer training. Developed software for both mobile app usage and software running on microcontrollers. 
+        - Worked on the backend code for the website being used. Mainly adding database functionality to accommodate changes in app software. 
+    - title: Teaching Assistant
+      institution: Florida International University
+      year: 2022 
+      description:
+        - Grading for COP 4710 a database management class that included topics such as ER diagrams, SQL, and relational algebra
+        - COP 4338 Systems programming class that dealt with Unix programming and the C language
+
+- title: Github Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/ricardo0129/LeetcodeBot">Leetcode Bot</a>
+      description: 
+        - An automatic grader for Leetcode Questions written in js. 
+        - The project creates a discord bot that listens to a channel and submits questions to leetcode through an API, it then stores results in a PostgreSQL database. 
+    - title: <a href="https://github.com/ricardo0129/KattisSolutions">Kattis Solutions</a>
+      description: 
+        - Some of my solutions to questions on <a href="https://open.kattis.com">Kattis</a> organized by topics
+        - Most solutions written in C++ and the file name indicates the problem ID
+        - To read the problem statement for antimatterrain.cpp go to https://open.kattis.com/problems/antimatterrain
+    - title: <a href="https://github.com/ricardo0129/NEAT">NEAT</a>
+      description: 
+        - An implementation of <a href="https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf">NEAT</a>
+        - Currently a work in progress and will finish soon
+    - title: <a href="https://github.com/ricardo0129/MatrixCpp">Matrix</a>
+      description: 
+        - A short multithreaded Matrix library
+        - Only addition and multiplication implemented 
+        - Mainly used to learn multithreading in C++
+
+
+
+- title: Additional Experience and Awards 
+  type: time_table
+  contents:
+    - title: Google Developer Tech Lead
+      institution: Florida International University
+      year: 2021-NOW 
+      description:
+        - Created and ran meeting teaching club members practicing technical interview concepts (Leetcode) and more advanced as well (competitive programming).
+    - title: Access STEP 1
+      institution: Florida International University
+      year: 2023
+      description:
+        - title: Ran an intro to python workshop going over beginner concepts such as
+          contents:
+            - Data Structures (list, sets, dictionaries)
+            - Recursion
+            - Classes and Abstraction
+
+- title: Interests
+  type: nested_list
+  contents:
+    - title: Competitive Programming
+      items: 
+        - Solve algorithmic programming problems of varying difficulty
+        - Including concepts such as Combinatorics, Dynamic Programming, Number Theory, Strings, etc...
